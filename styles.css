@@ -1,0 +1,140 @@
+
+:root {
+  --pastelTurq:#0396A6;
+  --darkPastelTurq: #026873;
+  --murkey: #012326;
+  --lightTurq:  #04D9D9;
+  --hmmNotSure: #05F2DB;
+  /******/
+--pstelT:#A6A594;
+--kahki:#605F4B;
+--lightT:#DED8C7;
+--orange:#F2884B;
+--skin:#D99873;
+--brown:#73351F;
+}
+  
+  * {margin: 0; padding: 0; box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+  
+/*FA start */
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+  }
+
+  .login::before {
+    content: "\f007";
+  }
+
+  /*FA end */
+
+
+/*Nav bar https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
+
+  
+  .topnav {
+    overflow: hidden;
+    background-color: var(--pstelT);
+    position: relative;
+  }
+  .topnav img {
+    width: 2rem;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: var(--pastelTurq);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: var(--pastelTurq);
+    color: black;
+  }
+  
+  .active {
+    background-color: var(--darkPastelTurq);
+    color: white;
+    height: 3rem;
+  }
+
+  /*end nav bar***********************/
+
+  .banner {
+    height: 7rem;
+    width: 100%;
+  }
+  .banner img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+  }
+
+  body { 
+    background-color: var(--lightT);
+    color: var(--kahki);
+
+   /*font-family: 'Patua One', cursive; */
+}
+h1 {
+    text-align: center;
+    font-size: 1.5rem ;
+
+ 
+
+}
+h2 {
+    text-align: center;
+    font-size: 1.2rem ;
+    margin-top: 1rem;
+    color: var(--darkPastelTurq);
+}
+
+p {
+    margin: 1rem;
+    text-align: justify;
+}
+
+.paralax {
+  background-image: url(images/G\ white.png);
+  min-height: 5rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkPastelTurq);
+  min-height: 50px;
+
+}
+footer a {
+  color: white;
+}
+footer a:visited {
+  color: var(--pstelT);
+}
