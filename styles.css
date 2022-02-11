@@ -106,11 +106,21 @@ h1 {
 }
 h2 {
     text-align: center;
-    font-size: 1.2rem ;
+    font-size: 2rem ;
     margin-top: 1rem;
     color: var(--darkPastelTurq);
+    background-color: var(--pstelT);
 }
-
+h3 {
+  text-align: center;
+  font-size: 1.6rem ;
+  margin-top: 3rem;
+  color: var(--darkPastelTurq);
+}
+h4 {
+  text-align: center;
+  color: var(--darkPastelTurq);
+}
 p {
     margin: 1rem;
     text-align: justify;
