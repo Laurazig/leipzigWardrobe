@@ -146,3 +146,18 @@ footer a:visited {
 iframe {
   justify-self: center;
 }
+
+button {
+  background-color: rgb(11, 136, 185);
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+.but {
+  display: flex;
+  justify-content: center;
+}
+p {
+  text-align: center;
+}
