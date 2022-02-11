@@ -138,3 +138,11 @@ footer a {
 footer a:visited {
   color: var(--pstelT);
 }
+.map {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+iframe {
+  justify-self: center;
+}
