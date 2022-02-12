@@ -1,5 +1,6 @@
 
 :root {
+  font-size: 62.5%;
   --pastelTurq:#0396A6;
   --darkPastelTurq: #026873;
   --murkey: #012326;
@@ -94,26 +95,23 @@
   body { 
     background-color: var(--lightT);
     color: var(--kahki);
+    font-size: 1.6rem;
 
    /*font-family: 'Patua One', cursive; */
 }
+
 h1 {
     text-align: center;
-    font-size: 1.5rem ;
-
- 
 
 }
 h2 {
     text-align: center;
-    font-size: 2rem ;
     margin-top: 1rem;
     color: var(--darkPastelTurq);
     background-color: var(--pstelT);
 }
 h3 {
   text-align: center;
-  font-size: 1.6rem ;
   margin-top: 3rem;
   color: var(--darkPastelTurq);
 }
@@ -157,6 +155,36 @@ iframe {
   justify-self: center;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  
+  margin: 1rem;
+}
+.button a{
+  color: white;
+  text-decoration: none;
+}
+.but {
+  /* margin: 3rem; */
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5%;
+  background-color: rgb(11, 136, 185) ;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:visited {
+  color: rgb(204, 226, 231);
+  text-decoration: none;
+}
+a:hover {
+ /*//cursor: pointer;*/
+ font-weight: bold;
+}
+
+
 button {
   background-color: rgb(11, 136, 185);
   color: white;
@@ -164,10 +192,9 @@ button {
   height: 3rem;
   border-radius: 0.5rem;
 }
-.but {
-  display: flex;
-  justify-content: center;
-}
+/* .but {
+
+} */
 p {
   text-align: center;
 }
