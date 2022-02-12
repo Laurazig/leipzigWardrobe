@@ -121,7 +121,8 @@ h4 {
 }
 p {
     margin: 1rem;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
 }
 
 .paralax {
@@ -132,20 +133,6 @@ p {
   background-size:cover;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--darkPastelTurq);
-  min-height: 50px;
-
-}
-footer a {
-  color: white;
-}
-footer a:visited {
-  color: var(--pstelT);
-}
 .map {
   display: flex;
   justify-content: center;
@@ -158,7 +145,6 @@ iframe {
 .button {
   display: flex;
   justify-content: center;
-  
   margin: 1rem;
 }
 .button a{
@@ -174,14 +160,16 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.37);
 }
-a:visited {
+.button a:visited {
   color: rgb(204, 226, 231);
   text-decoration: none;
 }
-a:hover {
+.button a:hover {
  /*//cursor: pointer;*/
  font-weight: bold;
+ box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.596);
 }
 
 
@@ -192,9 +180,28 @@ button {
   height: 3rem;
   border-radius: 0.5rem;
 }
-/* .but {
 
-} */
-p {
-  text-align: center;
+
+
+
+footer {
+  /* display:block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkPastelTurq);
+  min-height: 50px;
+  
+
+}
+footer a {
+  color: white;
+  
+}
+footer a:visited {
+  color: var(--pstelT);
+}
+.date{
+  color: grey;
+  
 }
