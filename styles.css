@@ -15,7 +15,7 @@
 --brown:#73351F;
 }
   
-  * {margin: 0; padding: 0; box-sizing: border-box;}
+* {margin: 0; padding: 0; box-sizing: border-box; text-align: center;}
 
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
@@ -205,3 +205,10 @@ footer a:visited {
   color: grey;
   
 }
+/* ul {
+  display: flex;
+  justify-content: center;
+} */
+/* li {
+  
+} */
