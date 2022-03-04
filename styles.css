@@ -15,7 +15,9 @@
 --brown:#73351F;
 }
   
-* {margin: 0; padding: 0; box-sizing: border-box; text-align: center;}
+* {margin: 0; padding: 0; box-sizing: border-box; text-align: center;
+ /* border: 1px solid;*/
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
@@ -46,11 +48,14 @@
     background-color: var(--pstelT);
     position: relative;
   }
-  .topnav img {
+
+
+  /*  .topnav img {
     width: 2rem;
-  }
+  }*/
   .topnav #myLinks {
     display: none;
+    
   }
   
   .topnav a {
@@ -67,6 +72,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    height: 67px;
   }
   
   .topnav a:hover {
@@ -77,9 +83,11 @@
   .active {
     background-color: var(--darkPastelTurq);
     color: white;
-    height: 3rem;
+    /*height: 3rem;*/
   }
-
+.fa {
+  padding: 10px;
+}
   /*end nav bar***********************/
 
   .banner {
@@ -96,6 +104,11 @@
     background-color: var(--lightT);
     color: var(--kahki);
     font-size: 1.6rem;
+    position:relative;
+    min-height: 100vh;
+    padding-bottom: 65px;
+   /* min-width: 200px;*/
+   
 
    /*font-family: 'Patua One', cursive; */
 }
@@ -112,7 +125,8 @@ h2 {
 }
 h3 {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color: var(--darkPastelTurq);
 }
 h4 {
@@ -125,21 +139,22 @@ p {
     text-align: center;
 }
 
-.paralax {
+/* .paralax {
   background-image: url(images/G\ white.png);
   min-height: 5rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size:cover;
-}
+} */
 
 .map {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-iframe {
+#iFrame_Map {
   justify-self: center;
+ 
 }
 
 .button {
@@ -191,7 +206,11 @@ footer {
   align-items: center;
   background-color: var(--darkPastelTurq);
   min-height: 50px;
-  
+  position: absolute;
+  /*position: sticky;*/
+  bottom: 0;
+  left: 0;
+  right: 0;
 
 }
 footer a {
@@ -205,10 +224,39 @@ footer a:visited {
   color: grey;
   
 }
-/* ul {
-  display: flex;
-  justify-content: center;
-} */
-/* li {
+
+
+
+/*creators*/
+
+
+.iFrame_vid {
+  width:300px;
+  height:170px;
+}
+
+ .container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+/*  
+ display: grid;
+grid-template-columns: repeat(2,1fr) ;
+gap: 1rem;
+grid-auto-rows: minmax(1rem,auto);
+
+margin: 1%;
+*/
+
+#box {
   
-} */
+  margin: 1rem;
+}
+
+.box3 {
+  width: 300px;
+   border: 1px solid;
+   justify-self: center;
+}
