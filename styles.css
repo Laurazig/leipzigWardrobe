@@ -16,11 +16,12 @@
 }
   
 * {margin: 0; padding: 0; box-sizing: border-box; text-align: center;
+  font-family: 'Ubuntu', sans-serif;
  /* border: 1px solid;*/
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
   
 /*FA start */
 .icon::before {
@@ -120,8 +121,10 @@ h1 {
 h2 {
     text-align: center;
     margin-top: 1rem;
+    padding: 1rem;
     color: var(--darkPastelTurq);
     background-color: var(--pstelT);
+    display: block;
 }
 h3 {
   text-align: center;
@@ -132,6 +135,7 @@ h3 {
 h4 {
   text-align: center;
   color: var(--darkPastelTurq);
+  margin-top: 5px;
 }
 p {
     margin: 1rem;
@@ -252,15 +256,26 @@ grid-auto-rows: minmax(1rem,auto);
 margin: 1%;
 */
 
-#box {
+.box {
   border: 1px solid;
   margin: 1rem;
   width: 320px;
   padding: 10px;
 }
 
-.box3 {
+#box3 {
   
    
    justify-self: center;
+}
+
+#ihm_img {
+  height:170px;
+}
+#nat {
+
+  width: 300px;
+  height:170px;
+  object-fit:cover;
+  
 }
