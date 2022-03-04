@@ -225,7 +225,9 @@ footer a:visited {
   
 }
 
-
+.lang {
+  color: #026873;
+}
 
 /*creators*/
 
@@ -251,12 +253,14 @@ margin: 1%;
 */
 
 #box {
-  
+  border: 1px solid;
   margin: 1rem;
+  width: 320px;
+  padding: 10px;
 }
 
 .box3 {
-  width: 300px;
-   border: 1px solid;
+  
+   
    justify-self: center;
 }
