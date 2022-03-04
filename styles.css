@@ -142,7 +142,9 @@ p {
     /* text-align: justify; */
     text-align: center;
 }
-
+a{
+  target:blank
+}
 /* .paralax {
   background-image: url(images/G\ white.png);
   min-height: 5rem;
@@ -272,7 +274,7 @@ margin: 1%;
 #ihm_img {
   height:170px;
 }
-#nat {
+.img_size {
 
   width: 300px;
   height:170px;
