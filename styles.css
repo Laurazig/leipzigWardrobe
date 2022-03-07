@@ -167,6 +167,7 @@ a{
   display: flex;
   justify-content: center;
   margin: 1rem;
+  
 }
 .button a{
   color: white;
@@ -191,6 +192,7 @@ a{
  /*//cursor: pointer;*/
  font-weight: bold;
  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.596);
+ transform: translate(1px);
 }
 
 
@@ -233,6 +235,20 @@ footer a:visited {
 
 .lang {
   color: #026873;
+}
+/*index*/
+#YouT {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 5px white;
+  margin: 2rem;
+  
+
+}
+#YouT:hover {
+  transform: translate(1px,1px);
+  box-shadow: 0 0 15px 20px white;
+
 }
 
 /*creators*/
