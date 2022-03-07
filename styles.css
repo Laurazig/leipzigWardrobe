@@ -281,3 +281,13 @@ margin: 1%;
   object-fit:cover;
   
 }
+
+/*make your own*/
+
+
+/*about*/
+#me {
+  width: 100px;
+  border-radius: 50%;
+  margin: 2rem;
+}
