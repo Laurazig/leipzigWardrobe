@@ -128,10 +128,9 @@ h2 {
 }
 h3 {
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   color: var(--darkPastelTurq);
-  margin: 0.25rem;
+  
 }
 h4 {
   text-align: center;
@@ -224,6 +223,7 @@ footer {
 }
 footer a {
   color: white;  
+  margin: 1rem;
 }
 footer a:visited {
   color: var(--pstelT);
