@@ -131,11 +131,12 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   color: var(--darkPastelTurq);
+  margin: 0.25rem;
 }
 h4 {
   text-align: center;
   color: var(--darkPastelTurq);
-  margin-top: 5px;
+  margin: 0.25rem;
 }
 p {
     margin: 1rem;
@@ -222,15 +223,13 @@ footer {
 
 }
 footer a {
-  color: white;
-  
+  color: white;  
 }
 footer a:visited {
   color: var(--pstelT);
 }
 .date{
   color: grey;
-  
 }
 
 .lang {
@@ -299,8 +298,17 @@ margin: 1%;
 }
 
 /*make your own*/
+.fabricBoxHeading {
+  background-color: #d6cdb4;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
 
-
+.fabricBoxWh {
+  background-color: #ddd9cf;
+  padding: 0.5rem 1rem 1rem 1rem;
+  margin-bottom: 0.5rem;
+}
 /*about*/
 #me {
   width: 100px;
