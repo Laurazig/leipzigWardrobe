@@ -236,6 +236,10 @@ footer a:visited {
   color: #026873;
 }
 /*index*/
+.index {
+  max-width: 60%;
+  margin: 0 auto;
+}
 #YouT {
   width: 200px;
   border-radius: 50%;
