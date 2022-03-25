@@ -16,12 +16,11 @@
 }
   
 * {margin: 0; padding: 0; box-sizing: border-box; text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Nunito', sans-serif; font-size: large;
  /* border: 1px solid;*/
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
  
 
 
@@ -288,6 +287,7 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 
+
 }
 /*  
  display: grid;
@@ -331,6 +331,9 @@ margin: 1%;
   margin-bottom: 0.5rem;
   border-radius: 5px;
 }
+.makePhotos {
+  border-radius: 20px;
+}
 /*about*/
 #me {
   width: 260px;
@@ -340,6 +343,10 @@ margin: 1%;
 
 
 
-@media (min-width:600px){
-
+@media (min-width:992px){
+  .box {
+    
+    width: 450px;
+  
+  }
 }
