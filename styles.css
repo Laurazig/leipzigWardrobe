@@ -15,8 +15,9 @@
 --brown:#73351F;
 }
   
-* {margin: 0; padding: 0; box-sizing: border-box; text-align: center;
-  font-family: 'Nunito', sans-serif; font-size: large;
+* {margin: 0; padding: 0; box-sizing: border-box; text-align: center; 
+  /*font-family: 'Nunito', sans-serif; ;*/
+  
  /* border: 1px solid;*/
 }
 
@@ -298,13 +299,7 @@ grid-auto-rows: minmax(1rem,auto);
 margin: 1%;
 */
 
-.box {
-  border: 1px solid;
-  margin: 1rem;
-  width: 320px;
-  padding: 10px;
-  border-radius: 20px;
-}
+
 
 #ihm_img {
   height:170px;
@@ -318,6 +313,16 @@ margin: 1%;
 }
 
 /*make your own*/
+.box {
+  border: 1px solid;
+  margin: 1rem;
+  width: 320px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.box a {
+  text-decoration: none;
+}
 .fabricBoxHeading {
   background-color: #d6cdb4;
   padding: 0.5rem;
@@ -344,9 +349,24 @@ margin: 1%;
 
 
 @media (min-width:992px){
+  :root {
+     font-size: 90%;
+  }
   .box {
     
     width: 450px;
+    
   
+  }
+  .fa {
+    
+    font-size:260% 
+    
+  }
+  #aboutBox {
+    width: 900px;
+  }
+  #me {
+    width: 500px;
   }
 }
