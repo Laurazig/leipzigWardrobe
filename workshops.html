@@ -19,9 +19,10 @@
   <header>
     <!--FA start -  Top Navigation Menu -->
     <div class="topnav">
-      <a href="index.html">
-        <h1>Workshops</h1>
+      <a> <!--translate-->
+        <div id="google_translate_element"  ></div>
       </a>
+   
       <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
         <a href="index.html">Home</a>
@@ -46,7 +47,7 @@
     </div>
   </header>
 
-
+  <h1>Workshops</h1>
   <h2> Local textile workshops in Leipzig </h2>
   <div class="container">
     <div class="box" id="box1">
@@ -151,12 +152,12 @@
 
 <!--translate-->
 <script type="text/javascript">
-function googleTranslateElementInit() {
-new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+  }
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <!--translate end -->
 </body>
 

@@ -22,7 +22,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-  
+ 
+
+
 /*FA start */
 .icon::before {
     display: inline-block;
@@ -43,7 +45,7 @@
 
 /*Nav bar https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
 
-  
+
   .topnav {
     overflow: hidden;
     background-color: var(--pstelT);
@@ -61,7 +63,7 @@
   
   .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 14.8px 25px;
     text-decoration: none;
     font-size: 17px;
     display: block;
@@ -73,7 +75,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    height: 67px;
+    height: 100px;
   }
   
   .topnav a:hover {
@@ -84,10 +86,12 @@
   .active {
     background-color: var(--darkPastelTurq);
     color: white;
-    /*height: 3rem;*/
+    
   }
 .fa {
   padding: 10px;
+  font-size: 5rem;
+  
 }
   /*end nav bar***********************/
 
@@ -116,6 +120,10 @@
 
 h1 {
     text-align: center;
+    color: white;
+    background-color: var(--pastelTurq);
+    padding: 1rem;
+    margin-top: 1rem;
 
 }
 h2 {
