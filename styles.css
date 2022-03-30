@@ -9,27 +9,8 @@
   --LesspeachY:#f8bfa3;
   --Background:#F5E6CC;
   --textGrey: rgb(12, 12, 12);
-  /******/
-
---kahki:#605F4B;
---orange:#F2884B;
---skin:#D99873;
---brown:#73351F;
 }
 
-/* --pastelTurq:#0396A6;
---darkPastelTurq: #026873;
---murkey: #012326;
---lightTurq:  #04D9D9;
---hmmNotSure: #05F2DB;
-/******/
---pstelT:#A6A594;
---kahki:#605F4B;
---lightT:#DED8C7;
---orange:#F2884B;
---skin:#D99873;
---brown:#73351F;
-} */
   
 * {margin: 0; padding: 0; box-sizing: border-box; text-align: center; 
   /*font-family: 'Nunito', sans-serif; ;*/
@@ -207,14 +188,14 @@ a{
   width: 10rem;
   height: 2rem;
   border-radius: 5%;
-  background-color: var() ;  
+  background-color: var(--Mustard) ;  
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.37);
 }
 .button a:visited {
-  color: rgb(204, 226, 231);
+  color: rgb(231, 251, 255);
   text-decoration: none;
 }
 .button a:hover {
@@ -226,7 +207,7 @@ a{
 
 
 button {
-  background-color: var(--BeautifulPurple);
+  background-color: var(--Mustard);
   color: white;
   width: 8rem;
   height: 3rem;
@@ -241,7 +222,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--darkPastelTurq);
+  background-color: var(--BeautifulPurple);
   min-height: 50px;
   position: absolute;
   /*position: sticky;*/
@@ -335,6 +316,7 @@ margin: 1%;
 /*make your own*/
 .box {
   border: 1px solid;
+  background-color: #A64AC9;
   margin: 1rem;
   width: 320px;
   padding: 10px;
@@ -348,11 +330,13 @@ margin: 1%;
   padding: 0.5rem;
   margin-top: 0.5rem;
   border-radius: 20px;
+  text-align: center;
 }
 
 .fabricBoxWh {
   background-color: var(--LesspeachY);
   padding: 0.5rem 1rem 1rem 1rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 5px;
   box-shadow: 2px 2px 5px 3px rgba(128, 128, 128, 0.556);
