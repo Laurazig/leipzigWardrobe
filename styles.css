@@ -1,17 +1,16 @@
-
 :root {
   font-size: 62.5%;
-
   --BeautifulPurple:#A64AC9;
-  --Turq: #17E9E0; 
+  /* --Turq: #17E9E0;  */
+    --Turq: rgba(255, 255, 255, 0.452); 
   --Mustard:#FCCD04;
   --peachY:#FFB48F;
   --LesspeachY:#f8bfa3;
-  --Background:#F5E6CC;
+  --Background:black;
+  /* --Background:#F5E6CC; */
   --textGrey: rgb(12, 12, 12);
 }
-
-  
+ 
 * {margin: 0; padding: 0; box-sizing: border-box; text-align: center; 
   /*font-family: 'Nunito', sans-serif; ;*/
   
@@ -20,8 +19,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
  
-
-
 /*FA start */
 .icon::before {
     display: inline-block;
@@ -38,26 +35,18 @@
   }
 
   /*FA end */
-
-
 /*Nav bar https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
-
-
   .topnav {
     overflow: hidden;
-    background-color: var(--Turq);
+    /* background-color: var(--Turq); */
     position: relative;
   }
-
-
   /*  .topnav img {
     width: 2rem;
   }*/
   .topnav #myLinks {
     display: none;
-    
   }
-  
   .topnav a {
     color: white;
     padding: 14.8px 25px;
@@ -65,7 +54,6 @@
     font-size: 17px;
     display: block;
   }
-  
   .topnav a.icon {
     background: var(--BeautifulPurple);
     display: block;
@@ -74,24 +62,19 @@
     top: 0;
     height: 100px;
   }
-  
   .topnav a:hover {
     background-color: var(--Mustard);
     color: black;
   }
-  
   .active {
     background-color: var(--BeautifulPurple); /*??????*/
-    color: white;
-    
+    color: white; 
   }
 .fa {
   padding: 10px;
-  font-size: 5rem;
-  
+  font-size: 5rem; 
 }
   /*end nav bar***********************/
-
   .banner {
     height: 7rem;
     width: 100%;
@@ -101,7 +84,6 @@
     height: inherit;
     object-fit: cover;
   }
-
   body { 
     background-color: var(--Background);
     color: var(--textGrey);
@@ -109,10 +91,6 @@
     position:relative;
     min-height: 100vh;
     padding-bottom: 65px;
-   /* min-width: 200px;*/
-   
-
-   /*font-family: 'Patua One', cursive; */
 }
 
 h1 {
@@ -121,13 +99,12 @@ h1 {
     background-color: var(--BeautifulPurple);
     padding: 1rem;
     margin-top: 1rem;
-
 }
 h2 {
     text-align: center;
     margin-top: 1rem;
     padding: 1rem;
-    color: var(--BeautifulPurple);
+    color: black;
     background-color: var(--Turq);
     display: block;
     border-radius: 20px;
@@ -135,25 +112,23 @@ h2 {
 h3 {
   text-align: center;
   margin: 1rem;
-  background-color: var(--BeautifulPurple);
-  color: var(--Background);
+  background-color: rgba(255, 255, 255, 0.733);
+  color: var(--BeautifulPurple);
   border-radius: 20px;
-  
 }
 h4 {
   text-align: center;
-  color: var(--BeautifulPurple);
-  background-color: wheat;
+  color:rgb(54, 54, 54);
+  background-color:  rgba(255, 255, 255, 0.247);
   margin: 0.25rem;
   border-radius: 20px;
 }
 p {
     margin: 1rem;
-    /* text-align: justify; */
-    text-align: center;
+    text-align: center;   
 }
-a{
-  target:blank
+#update {
+  color: rgba(255, 255, 255, 0.733);
 }
 /* .paralax {
   background-image: url(images/G\ white.png);
@@ -184,38 +159,31 @@ a{
   text-decoration: none;
 }
 .but {
-  /* margin: 3rem; */
   width: 10rem;
   height: 2rem;
   border-radius: 5%;
-  background-color: var(--Mustard) ;  
+  background-color: black;  
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.37);
+  box-shadow: 0 0 0 5px #00000038;
 }
 .button a:visited {
   color: rgb(231, 251, 255);
   text-decoration: none;
 }
 .button a:hover {
- /*//cursor: pointer;*/
  font-weight: bold;
  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.596);
  transform: translate(1px);
 }
-
-
-button {
-  background-color: var(--Mustard);
+/* button {
+  background-color: var(--Mustard); 
   color: white;
   width: 8rem;
   height: 3rem;
   border-radius: 0.5rem;
-}
-
-
-
+} */
 
 footer {
   /* display:block; */
@@ -229,7 +197,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-
 }
 footer a {
   color: white;  
@@ -241,7 +208,6 @@ footer a:visited {
 .date{
   color: grey;
 }
-
 .lang {
   color: #026873;
 }
@@ -251,68 +217,47 @@ footer a:visited {
   justify-content: center;
   width: auto;
 }
-
-
-
 .index {
  
   display: block;
   padding: 2rem;
   text-align: justify;
-  
-  
 } */
 #YouT {
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 0 15px 5px white;
   margin: 2rem;
-  
-
 }
 #YouT:hover {
   transform: translate(1px,1px);
   box-shadow: 0 0 15px 20px white;
-
 }
-
 /*creators*/
-
-
 .iFrame_vid {
   width:300px;
   height:170px;
 }
-
  .container {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-
-
 }
 /*  
  display: grid;
 grid-template-columns: repeat(2,1fr) ;
 gap: 1rem;
 grid-auto-rows: minmax(1rem,auto);
-
 margin: 1%;
 */
-
-
-
 #ihm_img {
   height:170px;
 }
 .img_size {
-
   width: 300px;
   height:170px;
   object-fit:cover;
-  
 }
-
 /*make your own*/
 .box {
   border: 1px solid;
@@ -326,15 +271,15 @@ margin: 1%;
   text-decoration: none;
 }
 .fabricBoxHeading {
-  background-color: var(--peachY);
+  background-color:rgba(255, 255, 255, 0.315);
   padding: 0.5rem;
   margin-top: 0.5rem;
   border-radius: 20px;
   text-align: center;
 }
-
 .fabricBoxWh {
-  background-color: var(--LesspeachY);
+  /* background-color: var(--LesspeachY); */
+  background-color: rgba(255, 255, 255, 0.021);
   padding: 0.5rem 1rem 1rem 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -351,22 +296,15 @@ margin: 1%;
   margin: 2rem;
 }
 
-
-
 @media (min-width:992px){
   :root {
      font-size: 90%;
   }
   .box {
-    
     width: 450px;
-    
-  
   }
   .fa {
-    
     font-size:260% 
-    
   }
   #aboutBox {
     width: 900px;
