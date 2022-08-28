@@ -1,6 +1,7 @@
 :root {
   font-size: 62.5%;
-  --BeautifulPurple:#A64AC9;
+  /* --BeautifulPurple:#A64AC9; */
+  --BeautifulPurple: rgb(255, 255, 255);
   /* --Turq: #17E9E0;  */
     --Turq: rgba(255, 255, 255, 0.452); 
   --Mustard:#FCCD04;
@@ -10,15 +11,9 @@
   /* --Background:#F5E6CC; */
   --textGrey: rgb(12, 12, 12);
 }
- 
 * {margin: 0; padding: 0; box-sizing: border-box; text-align: center; 
-  /*font-family: 'Nunito', sans-serif; ;*/
-  
- /* border: 1px solid;*/
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
- 
 /*FA start */
 .icon::before {
     display: inline-block;
@@ -29,33 +24,29 @@
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
   }
-
   .login::before {
     content: "\f007";
   }
-
   /*FA end */
 /*Nav bar https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
   .topnav {
     overflow: hidden;
-    /* background-color: var(--Turq); */
+    background-color: rgba(255, 255, 255, 0.874);
     position: relative;
   }
-  /*  .topnav img {
-    width: 2rem;
-  }*/
   .topnav #myLinks {
     display: none;
   }
   .topnav a {
-    color: white;
+    color: black;
+    /* background-color: blue; */
     padding: 14.8px 25px;
     text-decoration: none;
     font-size: 17px;
     display: block;
   }
   .topnav a.icon {
-    background: var(--BeautifulPurple);
+    background: white;
     display: block;
     position: absolute;
     right: 0;
@@ -63,11 +54,11 @@
     height: 100px;
   }
   .topnav a:hover {
-    background-color: var(--Mustard);
+    background-color: blue;
     color: black;
   }
   .active {
-    background-color: var(--BeautifulPurple); /*??????*/
+    background-color: rgb(133, 133, 244); /*??????*/
     color: white; 
   }
 .fa {
@@ -85,7 +76,11 @@
     object-fit: cover;
   }
   body { 
-    background-color: var(--Background);
+    background-image: url("Assets/shib.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: var(--Background); */
     color: var(--textGrey);
     font-size: 1.6rem;
     position:relative;
@@ -95,8 +90,8 @@
 
 h1 {
     text-align: center;
-    color: white;
-    background-color: var(--BeautifulPurple);
+    color: black	;
+    background-color: rgba(255, 255, 255, 0.695);
     padding: 1rem;
     margin-top: 1rem;
 }
@@ -105,7 +100,7 @@ h2 {
     margin-top: 1rem;
     padding: 1rem;
     color: black;
-    background-color: var(--Turq);
+    background-color: rgba(255, 255, 255, 0.682);
     display: block;
     border-radius: 20px;
 }
@@ -113,7 +108,7 @@ h3 {
   text-align: center;
   margin: 1rem;
   background-color: rgba(255, 255, 255, 0.733);
-  color: var(--BeautifulPurple);
+  color: black;
   border-radius: 20px;
 }
 h4 {
@@ -127,16 +122,9 @@ p {
     margin: 1rem;
     text-align: center;   
 }
-#update {
-  color: rgba(255, 255, 255, 0.733);
+.date {
+  color: black;
 }
-/* .paralax {
-  background-image: url(images/G\ white.png);
-  min-height: 5rem;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size:cover;
-} */
 
 .map {
   display: flex;
@@ -177,20 +165,13 @@ p {
  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.596);
  transform: translate(1px);
 }
-/* button {
-  background-color: var(--Mustard); 
-  color: white;
-  width: 8rem;
-  height: 3rem;
-  border-radius: 0.5rem;
-} */
 
 footer {
-  /* display:block; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--BeautifulPurple);
+  background-color: rgba(255, 255, 255, 0.741);
+  color: black;
   min-height: 50px;
   position: absolute;
   /*position: sticky;*/
@@ -199,30 +180,16 @@ footer {
   right: 0;
 }
 footer a {
-  color: white;  
+  color: black;  
   margin: 1rem;
 }
 footer a:visited {
   color: var(--pstelT);
 }
-.date{
-  color: grey;
-}
+
 .lang {
   color: #026873;
 }
-/*index*/
-/* .inedxDiv {
-  display: flex;
-  justify-content: center;
-  width: auto;
-}
-.index {
- 
-  display: block;
-  padding: 2rem;
-  text-align: justify;
-} */
 #YouT {
   width: 200px;
   border-radius: 50%;
@@ -243,13 +210,7 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 }
-/*  
- display: grid;
-grid-template-columns: repeat(2,1fr) ;
-gap: 1rem;
-grid-auto-rows: minmax(1rem,auto);
-margin: 1%;
-*/
+
 #ihm_img {
   height:170px;
 }
@@ -261,7 +222,7 @@ margin: 1%;
 /*make your own*/
 .box {
   border: 1px solid;
-  background-color: #A64AC9;
+  background-color: rgba(255, 255, 255, 0.736);
   margin: 1rem;
   width: 320px;
   padding: 10px;
