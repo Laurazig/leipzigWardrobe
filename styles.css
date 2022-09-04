@@ -76,14 +76,13 @@
     object-fit: cover;
   }
   body { 
-    background-image: url("Assets/shib.jpg");
+    background-image: url("Assets/sewingBackground.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    /* background-color: var(--Background); */
+    background-size:cover;
     color: var(--textGrey);
     font-size: 1.6rem;
-    position:relative;
+    /* position:relative; */
     min-height: 100vh;
     padding-bottom: 65px;
 }
@@ -173,7 +172,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.741);
   color: black;
   min-height: 50px;
-  position: absolute;
+  /* position: absolute; */
   /*position: sticky;*/
   bottom: 0;
   left: 0;
@@ -260,6 +259,9 @@ flex-wrap: wrap;
 @media (min-width:992px){
   :root {
      font-size: 90%;
+  }
+  body{
+    height: 100vh;
   }
   .box {
     width: 450px;
