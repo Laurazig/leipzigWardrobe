@@ -76,7 +76,8 @@
     object-fit: cover;
   }
   body { 
-    background-image: url("Assets/sewingBackground.jpg");
+    /* background-image: url("Assets/sewingBackground.jpg"); */
+    background-image: url("Assets/BgSewing.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
