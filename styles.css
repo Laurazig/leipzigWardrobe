@@ -54,11 +54,11 @@
     height: 100px;
   }
   .topnav a:hover {
-    background-color: blue;
+    background-color: rgba(208, 200, 180, 0.404);
     color: black;
   }
   .active {
-    background-color: rgb(133, 133, 244); /*??????*/
+    background-color:rgba(224, 201, 173, 0.559); /*??????*/
     color: white; 
   }
 .fa {
@@ -124,6 +124,7 @@ p {
 }
 .date {
   color: black;
+  background-color: rgba(255, 255, 255, 0.484);
 }
 
 .map {
