@@ -1,1 +1,3 @@
 # leipzigWardrobe
+
+An informative website
