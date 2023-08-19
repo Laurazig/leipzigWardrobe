@@ -15,6 +15,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 /*FA start */
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .icon::before {
     display: inline-block;
     font-style: normal;
@@ -167,27 +173,6 @@ p {
  transform: translate(1px);
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.741);
-  color: black;
-  min-height: 50px;
-  /* position: absolute; */
-  /*position: sticky;*/
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-footer a {
-  color: black;  
-  margin: 1rem;
-}
-footer a:visited {
-  color: var(--pstelT);
-}
-
 .lang {
   color: #026873;
 }
@@ -256,6 +241,30 @@ flex-wrap: wrap;
   width: 260px;
   border-radius: 50%;
   margin: 2rem;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.741);
+  color: black;
+  min-height: 50px;
+  margin-top: auto;
+  /* position: absolute; */
+  /*position: sticky;*/
+  /* bottom: 0;
+  left: 0;
+  right: 0; */
+}
+footer a {
+  color: black;  
+  margin: 1rem;
+}
+footer a:visited {
+  color: var(--pstelT);
 }
 
 @media (min-width:992px){
