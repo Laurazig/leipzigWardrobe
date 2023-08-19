@@ -11,6 +11,11 @@
   /* --Background:#F5E6CC; */
   --textGrey: rgb(12, 12, 12);
 }
+
+html{
+  height: 100%;
+}
+
 * {margin: 0; padding: 0; box-sizing: border-box; text-align: center; 
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
@@ -19,7 +24,7 @@
 body{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 .icon::before {
     display: inline-block;
